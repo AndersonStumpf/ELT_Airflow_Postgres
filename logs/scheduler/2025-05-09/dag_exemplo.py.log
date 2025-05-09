@@ -678,3 +678,59 @@
 [2025-05-09T16:43:15.933+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:43:15.932+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_teste_simples to None, run_after=None
 [2025-05-09T16:43:15.937+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:43:15.936+0000] {dag.py:3823} INFO - Setting next_dagrun for exemplo_postgres to None, run_after=None
 [2025-05-09T16:43:15.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_exemplo.py took 0.125 seconds
+[2025-05-09T16:43:46.428+0000] {processor.py:161} INFO - Started process (PID=1120) to work on /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:43:46.429+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_exemplo.py for tasks to queue
+[2025-05-09T16:43:46.430+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:43:46.430+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:43:46.456+0000] {processor.py:840} INFO - DAG(s) 'dag_teste_simples', 'exemplo_postgres' retrieved from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:43:46.485+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:43:46.484+0000] {dag.py:3036} INFO - Sync 2 DAGs
+[2025-05-09T16:43:46.495+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:43:46.495+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_teste_simples to None, run_after=None
+[2025-05-09T16:43:46.499+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:43:46.499+0000] {dag.py:3823} INFO - Setting next_dagrun for exemplo_postgres to None, run_after=None
+[2025-05-09T16:43:46.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_exemplo.py took 0.124 seconds
+[2025-05-09T16:44:16.990+0000] {processor.py:161} INFO - Started process (PID=1131) to work on /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:44:16.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_exemplo.py for tasks to queue
+[2025-05-09T16:44:16.992+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:44:16.992+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:44:17.013+0000] {processor.py:840} INFO - DAG(s) 'exemplo_postgres', 'dag_teste_simples' retrieved from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:44:17.042+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:44:17.041+0000] {dag.py:3036} INFO - Sync 2 DAGs
+[2025-05-09T16:44:17.052+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:44:17.052+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_teste_simples to None, run_after=None
+[2025-05-09T16:44:17.056+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:44:17.056+0000] {dag.py:3823} INFO - Setting next_dagrun for exemplo_postgres to None, run_after=None
+[2025-05-09T16:44:17.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_exemplo.py took 0.124 seconds
+[2025-05-09T16:44:47.579+0000] {processor.py:161} INFO - Started process (PID=1142) to work on /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:44:47.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_exemplo.py for tasks to queue
+[2025-05-09T16:44:47.581+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:44:47.580+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:44:47.600+0000] {processor.py:840} INFO - DAG(s) 'exemplo_postgres', 'dag_teste_simples' retrieved from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:44:47.628+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:44:47.628+0000] {dag.py:3036} INFO - Sync 2 DAGs
+[2025-05-09T16:44:47.639+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:44:47.639+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_teste_simples to None, run_after=None
+[2025-05-09T16:44:47.643+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:44:47.643+0000] {dag.py:3823} INFO - Setting next_dagrun for exemplo_postgres to None, run_after=None
+[2025-05-09T16:44:47.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_exemplo.py took 0.118 seconds
+[2025-05-09T16:45:18.149+0000] {processor.py:161} INFO - Started process (PID=1153) to work on /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:45:18.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_exemplo.py for tasks to queue
+[2025-05-09T16:45:18.151+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:45:18.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:45:18.173+0000] {processor.py:840} INFO - DAG(s) 'exemplo_postgres', 'dag_teste_simples' retrieved from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:45:18.203+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:45:18.203+0000] {dag.py:3036} INFO - Sync 2 DAGs
+[2025-05-09T16:45:18.214+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:45:18.214+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_teste_simples to None, run_after=None
+[2025-05-09T16:45:18.217+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:45:18.217+0000] {dag.py:3823} INFO - Setting next_dagrun for exemplo_postgres to None, run_after=None
+[2025-05-09T16:45:18.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_exemplo.py took 0.120 seconds
+[2025-05-09T16:45:48.697+0000] {processor.py:161} INFO - Started process (PID=1164) to work on /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:45:48.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_exemplo.py for tasks to queue
+[2025-05-09T16:45:48.699+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:45:48.698+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:45:48.717+0000] {processor.py:840} INFO - DAG(s) 'dag_teste_simples', 'exemplo_postgres' retrieved from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:45:48.748+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:45:48.748+0000] {dag.py:3036} INFO - Sync 2 DAGs
+[2025-05-09T16:45:48.760+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:45:48.760+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_teste_simples to None, run_after=None
+[2025-05-09T16:45:48.764+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:45:48.764+0000] {dag.py:3823} INFO - Setting next_dagrun for exemplo_postgres to None, run_after=None
+[2025-05-09T16:45:48.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_exemplo.py took 0.118 seconds
+[2025-05-09T16:46:19.253+0000] {processor.py:161} INFO - Started process (PID=1175) to work on /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:46:19.254+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_exemplo.py for tasks to queue
+[2025-05-09T16:46:19.255+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:46:19.255+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:46:19.274+0000] {processor.py:840} INFO - DAG(s) 'exemplo_postgres', 'dag_teste_simples' retrieved from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:46:19.303+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:46:19.302+0000] {dag.py:3036} INFO - Sync 2 DAGs
+[2025-05-09T16:46:19.313+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:46:19.313+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_teste_simples to None, run_after=None
+[2025-05-09T16:46:19.317+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:46:19.317+0000] {dag.py:3823} INFO - Setting next_dagrun for exemplo_postgres to None, run_after=None
+[2025-05-09T16:46:19.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_exemplo.py took 0.112 seconds
+[2025-05-09T16:46:49.820+0000] {processor.py:161} INFO - Started process (PID=1186) to work on /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:46:49.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_exemplo.py for tasks to queue
+[2025-05-09T16:46:49.822+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:46:49.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:46:49.844+0000] {processor.py:840} INFO - DAG(s) 'exemplo_postgres', 'dag_teste_simples' retrieved from /opt/airflow/dags/dag_exemplo.py
+[2025-05-09T16:46:49.873+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:46:49.873+0000] {dag.py:3036} INFO - Sync 2 DAGs
+[2025-05-09T16:46:49.884+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:46:49.884+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_teste_simples to None, run_after=None
+[2025-05-09T16:46:49.887+0000] {logging_mixin.py:188} INFO - [2025-05-09T16:46:49.887+0000] {dag.py:3823} INFO - Setting next_dagrun for exemplo_postgres to None, run_after=None
+[2025-05-09T16:46:49.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_exemplo.py took 0.121 seconds
